@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:orientation="vertical"
+    android:background="@drawable/customborder">
+
+    <!-- Movie item that contains the movie poster and title for each item in the grid view -->
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="411dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/image_description"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/no_image_available" />
+
+    <TextView
+        android:id="@+id/movie_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:lines="3"
+        android:paddingTop="2dp"
+        android:text="@string/movie_title_place_holder"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+</LinearLayout>

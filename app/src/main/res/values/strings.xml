@@ -1,0 +1,18 @@
+<resources>
+    <!-- Spinner Items-->
+    <string-array name="spinner_array">
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+    </string-array>
+
+    <string name="app_name">Movie Browser</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_results">Error, No Movies Found</string>
+    <string name="image_description">Movie Image Thumbnail</string>
+    <string name="vote_place_holder">0.0</string>
+    <string name="release_date_label">Release Date</string>
+    <string name="vote_label">Vote</string>
+    <string name="overview_label">Overview</string>
+    <string name="error_text">Error No Results</string>
+    <string name="movie_title_place_holder">[movie title]</string>
+</resources>
